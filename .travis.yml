@@ -17,3 +17,4 @@ deploy:
   app: "docker"
   env: "docker-env"
   bucket_name: "elasticbeanstalk-ap-south-1-174718991791" 
+  bucket_path: "docker"
