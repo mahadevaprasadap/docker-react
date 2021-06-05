@@ -1,7 +1,8 @@
 FROM node:alpine
 
 WORKDIR /app
-COPY package.json ./
+COPY package*.json ./
+RUN mkdir /app/node_module
 RUN npm install
 COPY --chown=node:node ./ ./
 USER node
