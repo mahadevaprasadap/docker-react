@@ -18,4 +18,4 @@ deploy:
   region:"ap-south-1"
   app: "docker"
   env: "docker-env"
-  bucketname: "elasticbeanstalk-ap-south-1-174718991791"
+  bucketname: "elasticbeanstalk-ap-south-1-174718991791" 
